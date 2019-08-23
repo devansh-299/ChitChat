@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/startsceen_backgrnd"
+    tools:context=".startscreen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/mygrey"
+        android:elevation="@dimen/com_facebook_button_login_corner_radius"
+        android:fontFamily="@font/give_you_glory"
+        android:text="ChitChat"
+        android:textColor="@color/colorAccent"
+        android:textSize="75sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <ProgressBar
+        android:id="@+id/loadingPanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="47dp"
+        android:elevation="@dimen/com_facebook_button_login_corner_radius"
+        android:indeterminate="true"
+        android:outlineSpotShadowColor="@android:color/background_light" />
+
+</RelativeLayout>
